@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="default">
+ <test name="TestA" verbose="2">
+ <classes>
+  <class name="framework_testng.Link_depend"></class>
+  <class name="framework_testng.Venki_TestNG"></class>
+ </classes>
+ </test>
+</suite>

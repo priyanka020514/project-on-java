@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [methods by groups]">
+  <test thread-count="5" name="GRP-log1(failed)">
+    <groups>
+      <run>
+        <include name="log1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="framework_testng.My_TestNG">
+        <methods>
+          <include name="Tc002"/>
+        </methods>
+      </class> <!-- framework_testng.My_TestNG -->
+      <class name="framework_testng.Link_depend">
+        <methods>
+          <include name="sign_up_page"/>
+          <include name="log_in_page"/>
+        </methods>
+      </class> <!-- framework_testng.Link_depend -->
+    </classes>
+  </test> <!-- GRP-log1(failed) -->
+</suite> <!-- Failed suite [methods by groups] -->

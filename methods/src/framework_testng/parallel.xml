@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="default" parallel="tests">
+ <test name="testB" verbose="2">
+  <classes>
+   <class name="framework_testng.My_TestNG"></class>
+   
+   </classes>
+ </test>
+  <test name="testc" verbose="2">
+  <classes>
+    <class name="framework_testng.Link_depend"></class>
+  </classes>
+  </test>
+  
+</suite>

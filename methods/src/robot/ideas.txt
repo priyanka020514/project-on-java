@@ -1,0 +1,4 @@
+Currently in GBM GQS project, we don't have email alerts enabled in ALM which will trigger an email to Development/other stake holders whenever a new defect is logged or status of defect is changed. Due to this SQA is sending manual intimation to Dev/stake holders via email which is causing delays with no proper monitoring.
+
+By Enabling the email alert option, Development team and other stake holders will get notification email whenever a defect is raised /modified which will ease the process of monitoring and Defects can be prioritized accordingly. Same way it will benefit QA also, in the scenarios when dev has fixed a bug and if they change the status in ALM an automatic email will get trigger to SQA based on which SQA can work on defect re-test. Below are benefits
+ - Can avoid time delays, avoid multiple emails.
